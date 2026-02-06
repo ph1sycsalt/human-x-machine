@@ -1,0 +1,28 @@
+{
+  "name": "BTEC Expo Human x Machine",
+  "version": "1.0.0",
+  "routes": [
+    { "path": "/", "name": "Home", "component": "Home" },
+    { "path": "/units", "name": "Units Index", "component": "Units" },
+    { "path": "/units/:unitId", "name": "Unit Detail", "component": "Units" },
+    { "path": "/about", "name": "About", "component": "About" },
+    { "path": "/theme", "name": "Theme", "component": "Theme" },
+    { "path": "/resources", "name": "Resources", "component": "Resources" },
+    { "path": "/team", "name": "Team", "component": "Team" },
+    { "path": "/contact", "name": "Contact", "component": "Contact" }
+  ],
+  "mappings": {
+    "home_cards": [
+      { "id": "card-unit-3", "target": "/units/unit-3" },
+      { "id": "card-unit-6", "target": "/units/unit-6" },
+      { "id": "card-unit-5", "target": "/units/unit-5" },
+      { "id": "card-unit-2", "target": "/units/unit-2" }
+    ]
+  },
+  "features": [
+    "Parallax Scroll",
+    "Custom Cursor",
+    "3D Tilt Cards",
+    "Animated Page Transitions"
+  ]
+}
